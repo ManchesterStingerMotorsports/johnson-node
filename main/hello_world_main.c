@@ -1,4 +1,4 @@
-//Johnson node
+//Example code
 
 #include <stdio.h>
 #include <inttypes.h>
