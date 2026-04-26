@@ -80,7 +80,7 @@ Desktop.ini
 # Stuff
 .vscode/
 .devcontainer/
-
+.history/
 
 # Temporary files
 *.000
