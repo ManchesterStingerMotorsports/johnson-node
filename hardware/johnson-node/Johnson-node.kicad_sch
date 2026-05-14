@@ -5208,10 +5208,6 @@
 		(uuid "7bf93998-34b3-4cba-8005-b95703a85263")
 	)
 	(no_connect
-		(at 347.98 55.88)
-		(uuid "7e9e8440-66c8-43a1-b352-9548575278fe")
-	)
-	(no_connect
 		(at 347.98 93.98)
 		(uuid "832f670e-9c92-400c-8df6-72695f8b2246")
 	)
@@ -5234,6 +5230,10 @@
 	(no_connect
 		(at 347.98 78.74)
 		(uuid "ca076521-cf2c-42e3-acee-1b265eba5728")
+	)
+	(no_connect
+		(at 347.98 66.04)
+		(uuid "d58bf8d4-c74c-41f5-9375-d5d8db1f8c2a")
 	)
 	(no_connect
 		(at 347.98 48.26)
@@ -5332,16 +5332,6 @@
 			(type default)
 		)
 		(uuid "0e63e27f-2d47-481a-a5aa-9c4d9151a3ab")
-	)
-	(wire
-		(pts
-			(xy 355.6 66.04) (xy 356.87 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1018ab5b-0986-4760-bb15-572ac6b844b6")
 	)
 	(wire
 		(pts
@@ -5575,6 +5565,26 @@
 	)
 	(wire
 		(pts
+			(xy 368.3 55.88) (xy 368.3 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f0a113d-e929-43f3-ba38-6e2fadcaa8a6")
+	)
+	(wire
+		(pts
+			(xy 375.92 68.58) (xy 377.19 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "417ce357-64f8-4cd8-bea5-8f90413d8b60")
+	)
+	(wire
+		(pts
 			(xy 82.55 120.65) (xy 90.17 120.65)
 		)
 		(stroke
@@ -5625,7 +5635,7 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 66.04) (xy 364.49 66.04)
+			(xy 392.43 68.58) (xy 384.81 68.58)
 		)
 		(stroke
 			(width 0)
@@ -6292,6 +6302,16 @@
 			(type default)
 		)
 		(uuid "b8ece85b-b93e-4812-ba71-f829583cd99d")
+	)
+	(wire
+		(pts
+			(xy 347.98 55.88) (xy 368.3 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba5954ce-5c6b-4ac2-ab65-f1c2876e4357")
 	)
 	(wire
 		(pts
@@ -12820,7 +12840,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 360.68 66.04 180)
+		(at 381 68.58 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12830,7 +12850,7 @@
 		(dnp no)
 		(uuid "42581f26-3f0a-4608-bf2d-b226a974a428")
 		(property "Reference" "D11"
-			(at 358.14 67.056 0)
+			(at 378.46 69.596 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12840,7 +12860,7 @@
 			)
 		)
 		(property "Value" "RED LED"
-			(at 364.744 66.802 0)
+			(at 385.064 69.342 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12850,7 +12870,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 360.68 66.04 0)
+			(at 381 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12861,7 +12881,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/AP2012EC.pdf"
-			(at 360.68 66.04 0)
+			(at 381 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12872,7 +12892,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 360.68 66.04 0)
+			(at 381 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12883,7 +12903,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 360.68 66.04 0)
+			(at 381 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12894,7 +12914,7 @@
 			)
 		)
 		(property "Part Number" "AP2012EC"
-			(at 360.68 66.04 0)
+			(at 381 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13576,7 +13596,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V"
+		(property "Value" "BATT"
 			(at 242.316 195.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16748,7 +16768,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 369.57 66.04 0)
+		(at 392.43 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16759,7 +16779,7 @@
 		(fields_autoplaced yes)
 		(uuid "9291cc38-bce2-4cd7-8581-d8b17aa5932b")
 		(property "Reference" "#PWR039"
-			(at 369.57 72.39 0)
+			(at 392.43 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16770,7 +16790,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 369.57 71.12 0)
+			(at 392.43 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16780,7 +16800,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 369.57 66.04 0)
+			(at 392.43 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16791,7 +16811,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 369.57 66.04 0)
+			(at 392.43 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16802,7 +16822,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 369.57 66.04 0)
+			(at 392.43 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19757,7 +19777,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V"
+		(property "Value" "BATT"
 			(at 242.316 200.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21238,7 +21258,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 351.79 66.04 90)
+		(at 372.11 68.58 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21248,7 +21268,7 @@
 		(dnp no)
 		(uuid "dc069caa-84dc-4f2f-afda-6114afacdf2c")
 		(property "Reference" "R18"
-			(at 351.79 68.326 90)
+			(at 372.11 70.866 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21258,7 +21278,7 @@
 			)
 		)
 		(property "Value" "270R"
-			(at 351.79 66.04 90)
+			(at 376.682 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21268,7 +21288,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 351.79 67.818 90)
+			(at 372.11 70.358 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21279,7 +21299,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 351.79 66.04 0)
+			(at 372.11 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21290,7 +21310,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 351.79 66.04 0)
+			(at 372.11 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21301,7 +21321,7 @@
 			)
 		)
 		(property "Part Number" "RC0805FR-07270RL"
-			(at 351.79 66.04 90)
+			(at 372.11 68.58 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
