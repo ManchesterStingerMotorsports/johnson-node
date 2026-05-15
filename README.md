@@ -1,6 +1,6 @@
 # Johnson Node
 
-Johnson Node is a modular CAN node for sensor networks. It is designed as a small configurable board that can sit on a CAN bus, read local sensors or IO, and publish data for the rest of the network to use.
+The Johnson Node is a modular CAN node for sensor networks. It is designed as a small configurable board that can sit on a CAN bus, read local sensors or IO, and publish data for the rest of the network to use.
 
 At its simplest, it is an ADC and IO node on CAN. A lot of the ESP32-S3 IO is broken out to a 14-pin multipin connector, so the same base board can be adapted for different sensor, control, and interface jobs without spinning a whole new main node each time.
 
@@ -8,6 +8,15 @@ The board can also interface with add-on hats. This repo currently includes hat 
 
 - GPS and IMU
 - Strain gauge interface
+
+## Name
+
+This project is named the "Johnson node" after Alexander Johnson, who did a dissertation on the preliminary prototype. 
+
+In reality this project has now far exceeded the scope of the original dissertation but the name remains as a legacy artefact and a reminder of the original work it was built upon, and the iterative nature of engineering development.
+
+> If I have seen further it is by standing on the shoulders of giants.  
+> — Isaac Newton
 
 ## Project Status
 
