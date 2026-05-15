@@ -14342,7 +14342,7 @@
 				)
 			)
 		)
-		(property "Footprint" "customFootprints:Shielded_Inductor_SMD_7265"
+		(property "Footprint" "Inductor_SMD:L_Wuerth_WE-TPC-3816"
 			(at 172.72 48.26 0)
 			(hide yes)
 			(show_name no)
