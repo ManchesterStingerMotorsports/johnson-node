@@ -70,15 +70,15 @@
           ""
         ],
         [
-          "starved_thermal|105100000|63180000|678ffafc-28cd-4bf0-8186-c4eee2411e31|99119e30-e08b-4918-83b0-f28d4406c6ec|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|122600000|63180000|678ffafc-28cd-4bf0-8186-c4eee2411e31|3ccc4de7-641b-43c1-b663-8e44c64e404d|F.Cu",
+          "starved_thermal|115400000|47250000|678ffafc-28cd-4bf0-8186-c4eee2411e31|e77570aa-a8ac-43bc-8604-4066f06ab042|B.Cu",
           ""
         ],
         [
           "starved_thermal|125475000|54500000|678ffafc-28cd-4bf0-8186-c4eee2411e31|0bc93b4a-30cc-4ea4-94fc-920565b0373a|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|127450000|47250000|678ffafc-28cd-4bf0-8186-c4eee2411e31|2b95d2e9-1613-4101-87bb-b8ea917d6d56|F.Cu",
           ""
         ],
         [
@@ -90,11 +90,11 @@
           ""
         ],
         [
-          "starved_thermal|147750000|56000000|678ffafc-28cd-4bf0-8186-c4eee2411e31|15c21355-bdff-428a-ae53-afc3ed382910|B.Cu",
+          "starved_thermal|147750000|51000000|678ffafc-28cd-4bf0-8186-c4eee2411e31|b8bffb43-2d9f-4ca7-a2d6-b58366f531bb|F.Cu",
           ""
         ],
         [
-          "starved_thermal|147750000|56000000|678ffafc-28cd-4bf0-8186-c4eee2411e31|15c21355-bdff-428a-ae53-afc3ed382910|F.Cu",
+          "starved_thermal|147750000|56000000|678ffafc-28cd-4bf0-8186-c4eee2411e31|15c21355-bdff-428a-ae53-afc3ed382910|B.Cu",
           ""
         ],
         [
