@@ -121,9 +121,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "C:/Users/james/Downloads/gerbs/strain gauge hat/")
 		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"

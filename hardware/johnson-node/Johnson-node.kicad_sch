@@ -11634,7 +11634,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomFootprints:Shielded_Inductor_SMD_7265"
+		(property "Footprint" "CustomFootprints:WE-TPC_4828"
 			(at 64.77 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -23147,7 +23147,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomFootprints:Shielded_Inductor_SMD_7265"
+		(property "Footprint" "CustomFootprints:WE-TPC_4828"
 			(at 68.58 118.11 0)
 			(hide yes)
 			(show_name no)
