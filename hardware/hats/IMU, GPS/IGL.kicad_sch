@@ -3,7 +3,13 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "cf925448-bcf6-481e-a7da-de906c73aa1d")
-	(paper "A3")
+	(paper "A4")
+	(title_block
+		(title "GPS and Accelerometer Carrier")
+		(rev "V1.0")
+		(company "Manchester Stinger Motorsports")
+		(comment 1 "James Platt")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x09"
 			(pin_names

@@ -3203,15 +3203,15 @@
 			(uuid "7d09cb07-ff31-48f4-86f3-9669e152bfc6")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XA_S14B-XASK-1_1x14_P2.50mm_Horizontal.step"
+		(model "C:/Program Files/KiCad/9.0/share/kicad/3dmodels/custom_models.3dshapes/S14B-XASK-1.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 16.5 -5 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -180)
 			)
 		)
 	)
