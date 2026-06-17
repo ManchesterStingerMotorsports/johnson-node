@@ -8607,7 +8607,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+3V3"
 			(at 119.38 209.5499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8923,7 +8923,7 @@
 				)
 			)
 		)
-		(property "Value" "LMR50410Y5FQDBVRQ1"
+		(property "Value" "LMR50410YQDBVRQ1"
 			(at 48.26 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
