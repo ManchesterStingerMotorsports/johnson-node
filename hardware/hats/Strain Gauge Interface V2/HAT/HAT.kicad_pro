@@ -472,7 +472,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "rear.kicad_pro",
+    "filename": "HAT.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -627,18 +627,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "rear.kicad_sch",
-        "name": "rear",
+        "filename": "HAT.kicad_sch",
+        "name": "HAT",
         "uuid": "bf4f6065-8f63-4b86-96d7-14957e755ff4"
       }
     ],
-    "used_designators": "#PWR36,#PWR41-60,#PWR102-213,C38-128,R25-122,SG9-42,U4,U7-10",
+    "used_designators": "R3-5,R18,J1-4,J13-14,D11,#PWR1-6,#PWR12-23,#PWR40,C7-9,C11-14,C23-24,U1-2,U4,U7-8",
     "variants": []
   },
   "sheets": [
     [
       "bf4f6065-8f63-4b86-96d7-14957e755ff4",
-      "rear"
+      "HAT"
     ]
   ],
   "text_variables": {},
