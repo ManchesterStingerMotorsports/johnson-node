@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 3.8,
-          "width": 2.0
+          "drill": 0.8,
+          "height": 1.27,
+          "width": 2.54
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -53,14 +53,21 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
+      "diff_pair_dimensions": [],
+      "drc_exclusions": [
+        [
+          "clearance|163100001|57999999|e35cd981-99a9-4e1d-8ccc-e82a66e49154|26e3bac0-b37f-4e68-a9ac-9ce2bd2ef0a0",
+          ""
+        ],
+        [
+          "clearance|163100001|62000001|7177bcb9-f139-4267-8317-b61f2f897bd6|c7790dc0-7fa8-47f3-9b77-6898441a7c3d",
+          ""
+        ],
+        [
+          "clearance|167000001|58100001|159a5d43-9afd-42a0-a784-db2b187afc11|0df165d4-df4e-4cf1-9a24-b19cebd2f0be",
+          ""
+        ]
       ],
-      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -193,10 +200,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0,
-        0.5
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -223,12 +227,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -486,7 +485,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "HAT.kicad_pro",
+    "filename": "TEENY_DUAL_LINEAR.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -641,18 +640,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "HAT.kicad_sch",
-        "name": "HAT",
-        "uuid": "bf4f6065-8f63-4b86-96d7-14957e755ff4"
+        "filename": "TEENY_DUAL_LINEAR.kicad_sch",
+        "name": "TEENY_DUAL_LINEAR",
+        "uuid": "a4274781-8747-4e5c-933f-55635e003602"
       }
     ],
-    "used_designators": "R6-7,J5-7,J15,#PWR8-11,#PWR14,#PWR19,#PWR29-30,#PWR41-42,U4,C14-15",
+    "used_designators": "J13-24,J26-27,#PWR36-37",
     "variants": []
   },
   "sheets": [
     [
-      "bf4f6065-8f63-4b86-96d7-14957e755ff4",
-      "HAT"
+      "a4274781-8747-4e5c-933f-55635e003602",
+      "TEENY_DUAL_LINEAR"
     ]
   ],
   "text_variables": {},
