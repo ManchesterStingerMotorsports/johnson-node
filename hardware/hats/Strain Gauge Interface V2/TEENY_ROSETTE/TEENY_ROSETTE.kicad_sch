@@ -1670,12 +1670,6 @@
 		(uuid "3dada036-de3d-42a8-9747-b5634d053c21")
 	)
 	(junction
-		(at 234.95 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "487b530e-bcbe-44e8-8395-db5001f7d050")
-	)
-	(junction
 		(at 57.15 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1751,7 +1745,7 @@
 		(at 234.95 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b301766f-f489-41af-83f1-3ccd7172ba60")
+		(uuid "aebb1c38-f892-4ff0-befd-5bc5c507f0e1")
 	)
 	(junction
 		(at 130.81 118.11)
@@ -1813,6 +1807,12 @@
 		(color 0 0 0 0)
 		(uuid "e3f15c0f-abd4-4d66-8dec-86d3583371d8")
 	)
+	(junction
+		(at 234.95 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa6ab191-9a8a-4fce-ba9c-20e3f1e40ce8")
+	)
 	(no_connect
 		(at 57.15 143.51)
 		(uuid "5a5b8aa9-b158-4bcc-bc84-311abb72c866")
@@ -1836,6 +1836,16 @@
 			(type default)
 		)
 		(uuid "035e0a2f-e74e-485b-8f0a-b3a72e8c8fb0")
+	)
+	(wire
+		(pts
+			(xy 234.95 142.24) (xy 236.22 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "087e9272-daec-43ad-b7cd-db2d2ee8c114")
 	)
 	(wire
 		(pts
@@ -1889,7 +1899,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 135.89) (xy 241.3 138.43)
+			(xy 241.3 135.89) (xy 241.3 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1916,16 +1926,6 @@
 			(type default)
 		)
 		(uuid "1d08a623-4d5d-4c5a-b5b0-db51114e2794")
-	)
-	(wire
-		(pts
-			(xy 238.76 185.42) (xy 238.76 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20d695f9-842e-404e-a5c7-3ace85605fd3")
 	)
 	(wire
 		(pts
@@ -2069,16 +2069,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 102.87) (xy 240.03 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36132144-242e-4511-842b-22f9d956e286")
-	)
-	(wire
-		(pts
 			(xy 34.29 128.27) (xy 36.83 128.27)
 		)
 		(stroke
@@ -2116,16 +2106,6 @@
 			(type default)
 		)
 		(uuid "44c0b5b8-f5aa-471a-a77f-52a172aa42c7")
-	)
-	(wire
-		(pts
-			(xy 247.65 138.43) (xy 241.3 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "466b1a4c-0b7c-4e63-9951-ffcfcd36abb5")
 	)
 	(wire
 		(pts
@@ -2269,16 +2249,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 179.07) (xy 245.11 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66e22cbd-7600-4be3-8236-75a83586bb85")
-	)
-	(wire
-		(pts
 			(xy 229.87 171.45) (xy 229.87 162.56)
 		)
 		(stroke
@@ -2296,16 +2266,6 @@
 			(type default)
 		)
 		(uuid "68a4965a-2e6c-4d03-9a3b-3bce10cc21a5")
-	)
-	(wire
-		(pts
-			(xy 234.95 142.24) (xy 240.03 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69e011cc-f741-4610-b6f7-413424f4328b")
 	)
 	(wire
 		(pts
@@ -2349,7 +2309,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 184.15) (xy 238.76 184.15)
+			(xy 234.95 184.15) (xy 236.22 184.15)
 		)
 		(stroke
 			(width 0)
@@ -2436,16 +2396,6 @@
 			(type default)
 		)
 		(uuid "8d333393-4528-49a5-9e25-2ab36309d513")
-	)
-	(wire
-		(pts
-			(xy 240.03 143.51) (xy 240.03 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f48fef0-a4cf-4860-a257-9f183a6e9dc1")
 	)
 	(wire
 		(pts
@@ -2689,16 +2639,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 101.6) (xy 240.03 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c07bbe72-6690-494f-8ded-a3684b067f40")
-	)
-	(wire
-		(pts
 			(xy 57.15 115.57) (xy 52.07 115.57)
 		)
 		(stroke
@@ -2799,6 +2739,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 101.6) (xy 236.22 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5639484-5e77-49d5-93c3-1de52fbdb14f")
+	)
+	(wire
+		(pts
 			(xy 220.98 110.49) (xy 251.46 110.49)
 		)
 		(stroke
@@ -2836,16 +2786,6 @@
 			(type default)
 		)
 		(uuid "deea1054-0635-478b-a090-32efff597272")
-	)
-	(wire
-		(pts
-			(xy 241.3 96.52) (xy 246.38 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1c9570f-860b-4976-b950-4973e1a6c401")
 	)
 	(wire
 		(pts
@@ -3521,7 +3461,7 @@
 			(uuid "7e135cff-5c27-4d90-b0b9-097632945790")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "C18")
 					(unit 1)
@@ -3603,7 +3543,7 @@
 			(uuid "783151c1-5b6f-46b4-aff5-11059e7b6b2b")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "C19")
 					(unit 1)
@@ -3682,7 +3622,7 @@
 			(uuid "73f11399-4a25-4dc7-a5ba-c658619906ed")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "R15")
 					(unit 1)
@@ -3761,7 +3701,7 @@
 			(uuid "3de3e2c5-19a0-4f25-b68b-8df540755ec3")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "R8")
 					(unit 1)
@@ -3843,88 +3783,9 @@
 			(uuid "089996f8-96d4-4ac7-8f32-107f80f901a3")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 245.11 184.15 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "11fec5bf-d9c2-4dad-bbad-4685958095b9")
-		(property "Reference" "J22"
-			(at 247.65 182.8799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 247.65 185.4199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CustomFootprints10:PAD"
-			(at 245.11 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.11 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 245.11 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e7ae33ac-cd40-4e5e-b89c-a44106c8c960")
-		)
-		(instances
-			(project "TEENY_DUAL_LINEAR"
-				(path "/a4274781-8747-4e5c-933f-55635e003602"
-					(reference "J22")
 					(unit 1)
 				)
 			)
@@ -3999,7 +3860,7 @@
 			(uuid "61efe0f7-3b80-4f68-a13c-98bdf963b63f")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "J3")
 					(unit 1)
@@ -4080,7 +3941,7 @@
 			(uuid "5488a8dd-a47a-4b5d-b23a-cfe6be35d19d")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "R12")
 					(unit 1)
@@ -4159,7 +4020,7 @@
 			(uuid "0bcecd1b-7bd0-4bf6-a9b5-15509937c71a")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "R17")
 					(unit 1)
@@ -4237,7 +4098,7 @@
 			(uuid "fb63e4ba-8664-4bcd-beac-7d03ef3df710")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "#PWR077")
 					(unit 1)
@@ -4246,8 +4107,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 240.03 148.59 270)
+		(lib_id "Device:R_45deg")
+		(at 238.76 99.06 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4255,32 +4116,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1fd35dee-bc56-4788-9961-344dae0bd019")
-		(property "Reference" "J19"
-			(at 242.57 147.3199 90)
+		(uuid "21d80aef-6fe9-480e-bff8-c3377bd28af9")
+		(property "Reference" "R20"
+			(at 239.776 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x01"
-			(at 242.57 149.8599 90)
+		(property "Value" "120"
+			(at 241.554 104.394 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "CustomFootprints10:PAD"
-			(at 240.03 148.59 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 236.982 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4291,7 +4151,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 148.59 0)
+			(at 238.76 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4301,8 +4161,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 240.03 148.59 0)
+		(property "Description" "Resistor, rotated by 45°"
+			(at 238.76 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4311,14 +4171,17 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "5dd25a7b-7b91-4259-aa2b-1e1992677b02")
 		)
 		(pin "1"
-			(uuid "6a852c09-27b8-4da7-80ba-4c9d4dfb37a9")
+			(uuid "c7185e9b-68d3-41c0-90e9-db1d98cb87a3")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
-					(reference "J19")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -4398,7 +4261,7 @@
 			(uuid "56334f19-3c94-4989-9866-c55040d70b6a")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "C29")
 					(unit 1)
@@ -4476,7 +4339,7 @@
 			(uuid "7d8c2d84-c448-4645-b902-695854ac308b")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "#PWR076")
 					(unit 1)
@@ -4554,7 +4417,7 @@
 			(uuid "a35a166a-28de-44bf-a798-98787bd6e9b4")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "#PWR095")
 					(unit 1)
@@ -4636,7 +4499,7 @@
 			(uuid "684f9463-eba9-47be-a7a9-358c618f8735")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "C22")
 					(unit 1)
@@ -4714,7 +4577,7 @@
 			(uuid "f53b889c-3208-4e99-a72d-b02619a0dc40")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "#PWR071")
 					(unit 1)
@@ -4796,7 +4659,7 @@
 			(uuid "17ca8bb5-6df7-41dc-a29d-69491262a297")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "C12")
 					(unit 1)
@@ -4874,7 +4737,7 @@
 			(uuid "3fdb656d-1075-4dd1-afea-b1d4595125b0")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "#PWR085")
 					(unit 1)
@@ -4953,7 +4816,7 @@
 			(uuid "60ed5b1a-68c6-4d1e-8d1a-594cadec2477")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "R9")
 					(unit 1)
@@ -5029,7 +4892,7 @@
 			(uuid "584b7fc5-feb6-4ce2-b117-ded186bb16e6")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "#PWR029")
 					(unit 1)
@@ -5107,7 +4970,7 @@
 			(uuid "70e2ef04-d8bf-4d9e-8266-aea16838aedc")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "#PWR035")
 					(unit 1)
@@ -5185,7 +5048,7 @@
 			(uuid "5a93ee15-d1a0-43eb-a679-a89a1bfb41c2")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "#PWR075")
 					(unit 1)
@@ -5262,7 +5125,7 @@
 			(uuid "0652e92f-4134-45ce-a0f6-35e2bb55bc16")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "J14")
 					(unit 1)
@@ -5341,7 +5204,7 @@
 			(uuid "940d5e33-7050-4f00-a539-5a20e8950c80")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "R13")
 					(unit 1)
@@ -5419,7 +5282,7 @@
 			(uuid "635fbf00-d909-42e2-b06f-a37dee951d97")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "#PWR084")
 					(unit 1)
@@ -5496,7 +5359,7 @@
 			(uuid "2228072c-8f30-4cee-b800-e8a53fab6401")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "J26")
 					(unit 1)
@@ -5577,7 +5440,7 @@
 			(uuid "4a96b9be-2772-43fd-a55a-df9214c0d71e")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "C10")
 					(unit 1)
@@ -5659,7 +5522,7 @@
 			(uuid "dcdbe71a-bf82-445b-a37f-f1273f1e1292")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "C27")
 					(unit 1)
@@ -5737,7 +5600,7 @@
 			(uuid "00aff620-ebfa-4a89-9ea3-ba683c8d2876")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "#PWR090")
 					(unit 1)
@@ -5815,7 +5678,7 @@
 			(uuid "90b12195-1cc7-46bb-b894-dd58c0763d14")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "#PWR034")
 					(unit 1)
@@ -5892,7 +5755,7 @@
 			(uuid "990404a7-c535-4f81-8627-2b486d3f2a68")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "J23")
 					(unit 1)
@@ -5970,7 +5833,7 @@
 			(uuid "d3e2f083-75b8-4c3e-9046-c4ab53e4ba67")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "#PWR091")
 					(unit 1)
@@ -6048,7 +5911,7 @@
 			(uuid "5d85e91a-7361-4f99-884e-7554e759ff95")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "#PWR032")
 					(unit 1)
@@ -6127,7 +5990,7 @@
 			(uuid "a101e41a-d811-4bd9-a90b-57169f4b3b7b")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "J8")
 					(unit 1)
@@ -6205,7 +6068,7 @@
 			(uuid "543ee957-c726-4fd2-8926-8045ba599f3e")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "#PWR088")
 					(unit 1)
@@ -6284,7 +6147,7 @@
 			(uuid "1e799205-48b4-41f9-ae5e-5b457db09148")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "J25")
 					(unit 1)
@@ -6362,7 +6225,7 @@
 			(uuid "bd5171fb-df21-486d-9e83-bb586b4951c2")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "#PWR072")
 					(unit 1)
@@ -6443,7 +6306,7 @@
 			(uuid "6625f414-0184-4cdc-8056-3b6a9a0023a5")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "C11")
 					(unit 1)
@@ -6521,7 +6384,7 @@
 			(uuid "fa820bff-43c6-4491-b841-1a5d8677269e")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "#PWR092")
 					(unit 1)
@@ -6599,7 +6462,7 @@
 			(uuid "e4c2b61d-5b9b-4a83-990d-b7e18f8bc20f")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "#PWR028")
 					(unit 1)
@@ -6676,7 +6539,7 @@
 			(uuid "6849a35a-a691-4ed3-a581-adee8f411126")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "J24")
 					(unit 1)
@@ -6755,7 +6618,7 @@
 			(uuid "2047c3a0-c1cd-43f2-b265-06b6d99803cd")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "J18")
 					(unit 1)
@@ -6833,7 +6696,7 @@
 			(uuid "cf63144b-a0ff-4bb2-99b6-59f7161996a2")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "#PWR087")
 					(unit 1)
@@ -6915,7 +6778,7 @@
 			(uuid "30a04ccd-bb84-45f6-b870-d771486df67c")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "C28")
 					(unit 1)
@@ -6994,7 +6857,7 @@
 			(uuid "d79f9f37-9833-4142-815d-163595c1e448")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "R11")
 					(unit 1)
@@ -7071,7 +6934,7 @@
 			(uuid "777b9f9d-0f95-4965-8164-18cc7394ed0b")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "#PWR031")
 					(unit 1)
@@ -7149,7 +7012,7 @@
 			(uuid "27d0eaad-cc54-41a7-912c-1a81264220f6")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "#PWR073")
 					(unit 1)
@@ -7228,7 +7091,7 @@
 			(uuid "ae839434-134f-4e06-b278-90e0453bb758")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "J4")
 					(unit 1)
@@ -7306,7 +7169,7 @@
 			(uuid "109658ca-a73d-4292-9ad4-6ccb50a3e2e6")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "#PWR074")
 					(unit 1)
@@ -7385,7 +7248,7 @@
 			(uuid "2d05b249-a369-49ac-b31c-34722c120d9f")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "J10")
 					(unit 1)
@@ -7467,88 +7330,9 @@
 			(uuid "7761f8ff-4314-4552-bb82-19584937cb75")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 240.03 107.95 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9187ba30-d9b0-4c0f-8653-12ea61c2129c")
-		(property "Reference" "J15"
-			(at 242.57 106.6799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 242.57 109.2199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CustomFootprints10:PAD"
-			(at 240.03 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 240.03 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d95a40a0-56a1-43dc-93d9-61814adbd834")
-		)
-		(instances
-			(project "TEENY_DUAL_LINEAR"
-				(path "/a4274781-8747-4e5c-933f-55635e003602"
-					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -7624,7 +7408,7 @@
 			(uuid "4d019bc9-a228-4d84-8634-15d991fab9f4")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "#PWR086")
 					(unit 1)
@@ -7703,7 +7487,7 @@
 			(uuid "7f0b6502-5765-4a05-843e-70544e14f2d8")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "R6")
 					(unit 1)
@@ -7782,7 +7566,7 @@
 			(uuid "f1e3ec63-23e5-419b-ad16-7a759b56c6a6")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "R14")
 					(unit 1)
@@ -7861,167 +7645,9 @@
 			(uuid "25c57c0a-43b8-4410-b689-dc05b2cdcee2")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 247.65 143.51 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98fa041b-2a29-4e39-9d3d-6cd76249908a")
-		(property "Reference" "J20"
-			(at 250.19 142.2399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 250.19 144.7799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CustomFootprints10:PAD"
-			(at 247.65 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 247.65 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4271ecb5-97f2-460f-9be0-4ef1edc4a8f4")
-		)
-		(instances
-			(project "TEENY_DUAL_LINEAR"
-				(path "/a4274781-8747-4e5c-933f-55635e003602"
-					(reference "J20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 238.76 190.5 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b05fbdc-bc83-43c4-923e-70593781d224")
-		(property "Reference" "J21"
-			(at 241.3 189.2299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 241.3 191.7699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CustomFootprints10:PAD"
-			(at 238.76 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 238.76 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 238.76 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c513088e-cb80-4e46-b052-e4523453457e")
-		)
-		(instances
-			(project "TEENY_DUAL_LINEAR"
-				(path "/a4274781-8747-4e5c-933f-55635e003602"
-					(reference "J21")
 					(unit 1)
 				)
 			)
@@ -8101,7 +7727,7 @@
 			(uuid "80af41ad-1682-4acd-a504-4f2efaa042ec")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "C23")
 					(unit 1)
@@ -8180,7 +7806,7 @@
 			(uuid "3ecdebf4-b12f-451a-a7c0-ad07e6d3f8b8")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "J12")
 					(unit 1)
@@ -8257,7 +7883,7 @@
 			(uuid "7aaa8a1f-00b6-4b63-981c-23b61c4eab5a")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "#PWR037")
 					(unit 1)
@@ -8335,7 +7961,7 @@
 			(uuid "af700568-942a-444a-b5c1-403f1b4647bb")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "#PWR070")
 					(unit 1)
@@ -8416,7 +8042,7 @@
 			(uuid "1f2c7e8b-8ca7-4db8-b3cc-0dfad743738f")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "R5")
 					(unit 1)
@@ -8591,7 +8217,7 @@
 			(uuid "89dec24a-d294-4f67-b3b3-6386dc5da2ae")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "U1")
 					(unit 1)
@@ -8669,7 +8295,7 @@
 			(uuid "2ccff5af-b159-4cf7-b707-bf9bebab0f7f")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "#PWR089")
 					(unit 1)
@@ -8748,7 +8374,7 @@
 			(uuid "3b0b3f80-3c1b-4aad-81ec-0448f732c7c4")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "R10")
 					(unit 1)
@@ -8825,7 +8451,7 @@
 			(uuid "e32ca7b4-001e-42f0-ba92-7902c87c9313")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "#PWR030")
 					(unit 1)
@@ -8903,7 +8529,7 @@
 			(uuid "c8ea63d4-b439-4633-9c2d-b515dbaab427")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "#PWR093")
 					(unit 1)
@@ -8980,7 +8606,7 @@
 			(uuid "9a702c7a-f9f6-400a-aa64-5b4de3a93441")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "J5")
 					(unit 1)
@@ -9057,9 +8683,90 @@
 			(uuid "67e06751-faff-4039-9f45-28134d02eebb")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_45deg")
+		(at 238.76 139.7 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b974e722-73cc-4abb-9824-ede52bec8659")
+		(property "Reference" "R19"
+			(at 239.776 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "120"
+			(at 241.554 145.034 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 236.982 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, rotated by 45°"
+			(at 238.76 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4e9e6497-8f3c-4fb1-a7b7-8b126283426b")
+		)
+		(pin "1"
+			(uuid "015e1ac9-c10f-4ad0-8d78-addee1b134e4")
+		)
+		(instances
+			(project "TEENY_ROSETTE"
+				(path "/a4274781-8747-4e5c-933f-55635e003602"
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -9136,7 +8843,7 @@
 			(uuid "92d86f28-396a-4279-8c41-13e3b3a35b83")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "R3")
 					(unit 1)
@@ -9213,7 +8920,7 @@
 			(uuid "9f72a072-c0b0-4419-8324-80c33c157736")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "J11")
 					(unit 1)
@@ -9290,7 +8997,7 @@
 			(uuid "9a36eb33-4f77-4ce8-9455-1f297e8fe529")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "J9")
 					(unit 1)
@@ -9369,7 +9076,7 @@
 			(uuid "8c9f6d40-1de6-42a0-9b82-5bd52631edd7")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "J2")
 					(unit 1)
@@ -9448,7 +9155,7 @@
 			(uuid "f79ebecb-627e-45f1-9485-7bee3df1989e")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "R7")
 					(unit 1)
@@ -9530,88 +9237,9 @@
 			(uuid "deabae61-646b-4eef-8488-473c2719e255")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 246.38 101.6 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d3230caf-82bf-4bd9-9856-2ecdedcd3a6c")
-		(property "Reference" "J16"
-			(at 248.92 100.3299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 248.92 102.8699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CustomFootprints10:PAD"
-			(at 246.38 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 246.38 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cd628e20-726f-4ef5-a6c5-5428d34e1bd1")
-		)
-		(instances
-			(project "TEENY_DUAL_LINEAR"
-				(path "/a4274781-8747-4e5c-933f-55635e003602"
-					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -9686,7 +9314,7 @@
 			(uuid "f0cd6f68-e03f-4f07-94ca-8545a4bdadbd")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "J13")
 					(unit 1)
@@ -9768,7 +9396,7 @@
 			(uuid "1c155441-2ae6-4af9-8afa-78e55fc1e125")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "C8")
 					(unit 1)
@@ -9849,7 +9477,7 @@
 			(uuid "e48b2f67-d321-4a24-8d69-e961fd210173")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "R16")
 					(unit 1)
@@ -9927,7 +9555,7 @@
 			(uuid "169202e7-2e87-481f-9860-5ed6af430aac")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "#PWR094")
 					(unit 1)
@@ -10006,7 +9634,7 @@
 			(uuid "702f0c46-de95-41be-ab09-e609da6601d0")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "J27")
 					(unit 1)
@@ -10085,7 +9713,7 @@
 			(uuid "e3fa6901-05d4-4bc1-9fa7-a7ad67ab5760")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "J17")
 					(unit 1)
@@ -10162,7 +9790,7 @@
 			(uuid "c7ec5865-5996-44d0-b31b-a695ca739763")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "J1")
 					(unit 1)
@@ -10244,7 +9872,7 @@
 			(uuid "8c2cf3c1-db19-4ea9-abac-4e74dc767c28")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "C21")
 					(unit 1)
@@ -10321,9 +9949,88 @@
 			(uuid "3ae1f684-cf56-4655-8098-40a6558c6f37")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_45deg")
+		(at 238.76 181.61 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e95eb595-224f-44ed-a260-d769b28bb2af")
+		(property "Reference" "R18"
+			(at 235.204 178.054 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120"
+			(at 237.236 178.308 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 240.538 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, rotated by 45°"
+			(at 238.76 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9946c37a-a305-4f2f-8700-2fd17ead8239")
+		)
+		(pin "1"
+			(uuid "17c73f2f-7c9b-4457-93f4-d10ec74d39da")
+		)
+		(instances
+			(project "TEENY_ROSETTE"
+				(path "/a4274781-8747-4e5c-933f-55635e003602"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -10399,7 +10106,7 @@
 			(uuid "f4321886-bf61-4934-8a06-00af72bc97de")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "#PWR033")
 					(unit 1)
@@ -10481,7 +10188,7 @@
 			(uuid "a8ec39b5-b1c5-449e-9fb7-1e1771250e88")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "C24")
 					(unit 1)
@@ -10563,7 +10270,7 @@
 			(uuid "e806729c-1b7f-4052-9ee8-15fb056c38d9")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "C9")
 					(unit 1)
@@ -10645,7 +10352,7 @@
 			(uuid "d20b9f22-dfb3-4525-8d43-ab4791171172")
 		)
 		(instances
-			(project "TEENY_DUAL_LINEAR"
+			(project "TEENY_ROSETTE"
 				(path "/a4274781-8747-4e5c-933f-55635e003602"
 					(reference "C25")
 					(unit 1)

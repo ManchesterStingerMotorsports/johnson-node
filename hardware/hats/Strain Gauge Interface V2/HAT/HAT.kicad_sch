@@ -5421,16 +5421,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 39.37) (xy 124.46 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a27b5fe4-7be1-4191-9be5-58ba4f68843e")
-	)
-	(wire
-		(pts
 			(xy 227.33 36.83) (xy 227.33 38.1)
 		)
 		(stroke
@@ -5698,6 +5688,16 @@
 			(type default)
 		)
 		(uuid "ec5bb467-526f-40a4-8357-3f98495144b0")
+	)
+	(wire
+		(pts
+			(xy 124.46 39.37) (xy 124.46 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecbab422-5da5-4384-bf89-dcc28e1f93da")
 	)
 	(wire
 		(pts
@@ -7509,6 +7509,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 227.33 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ae347e9-78c7-4ee3-898f-797841343238")
+		(property "Reference" "#PWR019"
+			(at 227.33 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 227.33 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 227.33 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "631657b5-43f3-48e6-ab98-0be63a5b4392")
+		)
+		(instances
+			(project "HAT"
+				(path "/bf4f6065-8f63-4b86-96d7-14957e755ff4"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 104.14 175.26 90)
 		(unit 1)
@@ -9132,83 +9210,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 227.33 43.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5772afef-2028-45b4-9b8c-c66b7dd7c1c5")
-		(property "Reference" "#PWR038"
-			(at 227.33 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 224.79 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 227.33 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 227.33 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 227.33 43.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "20fcf6c4-4e59-4477-aae2-6a44309e7a4a")
-		)
-		(instances
-			(project "HAT"
-				(path "/bf4f6065-8f63-4b86-96d7-14957e755ff4"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 210.82 29.21 0)
 		(unit 1)
@@ -9518,6 +9519,84 @@
 			(project "HAT"
 				(path "/bf4f6065-8f63-4b86-96d7-14957e755ff4"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 124.46 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63cd4760-69d8-4657-aa69-201ff76f3f7c")
+		(property "Reference" "#PWR020"
+			(at 124.46 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fccb3762-3f44-4259-bcd7-a69cce312847")
+		)
+		(instances
+			(project "HAT"
+				(path "/bf4f6065-8f63-4b86-96d7-14957e755ff4"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -10838,7 +10917,7 @@
 				)
 			)
 		)
-		(property "Footprint" "customFootprints:SOT-223_ST_LIT"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 			(at 182.88 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -10967,83 +11046,6 @@
 			(project "HAT"
 				(path "/bf4f6065-8f63-4b86-96d7-14957e755ff4"
 					(reference "J14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 124.46 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "992aae82-5b55-4155-9b87-ae24d23638c4")
-		(property "Reference" "#PWR025"
-			(at 124.46 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 121.92 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 44.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1ca01207-7666-4acc-b544-35c2535700ff")
-		)
-		(instances
-			(project "HAT"
-				(path "/bf4f6065-8f63-4b86-96d7-14957e755ff4"
-					(reference "#PWR025")
 					(unit 1)
 				)
 			)

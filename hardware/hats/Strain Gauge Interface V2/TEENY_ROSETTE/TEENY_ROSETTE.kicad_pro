@@ -485,7 +485,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "TEENY_DUAL_LINEAR.kicad_pro",
+    "filename": "TEENY_ROSETTE.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -640,18 +640,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "TEENY_DUAL_LINEAR.kicad_sch",
-        "name": "TEENY_DUAL_LINEAR",
+        "filename": "TEENY_ROSETTE.kicad_sch",
+        "name": "TEENY_ROSETTE",
         "uuid": "a4274781-8747-4e5c-933f-55635e003602"
       }
     ],
-    "used_designators": "J13-24,J26-27,#PWR36-37",
+    "used_designators": "R18-20",
     "variants": []
   },
   "sheets": [
     [
       "a4274781-8747-4e5c-933f-55635e003602",
-      "TEENY_DUAL_LINEAR"
+      "TEENY_ROSETTE"
     ]
   ],
   "text_variables": {},
