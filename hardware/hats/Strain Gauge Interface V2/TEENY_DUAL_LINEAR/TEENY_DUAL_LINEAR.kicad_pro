@@ -521,7 +521,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "C:/Users/james/Downloads/STRAIN GAUGE BOARDS/DUAL_LINEAR/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -645,7 +645,7 @@
         "uuid": "a4274781-8747-4e5c-933f-55635e003602"
       }
     ],
-    "used_designators": "J13-24,J26-27,#PWR36-37",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

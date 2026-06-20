@@ -6,32 +6,54 @@
 #include "esp_err.h"
 #include "driver/gpio.h" 
 
+#ifndef MSM_CAN_MAX_SUBS
+#define MSM_CAN_MAX_SUBS 64
+#endif
+
+#ifndef MSM_CAN_MAX_SCHEDULED_TX
+#define MSM_CAN_MAX_SCHEDULED_TX 32
+#endif
+
 namespace MSM_CAN
 {
+    struct TxFrame
+    {
+        uint16_t id;
+        uint8_t data[8];
+    };
+
+    struct RxFrame
+    {
+        uint16_t id;
+        uint8_t data[8];
+        uint32_t timestamp_ms;
+    };
+
+    using RxCallback = void (*)(const RxFrame& frame);
+
     esp_err_t init(gpio_num_t rx_gpio, gpio_num_t tx_gpio);  
 
     // Queue a one-shot transmit and wait for the TX task to report the result.
     // This remains a blocking API from the caller's point of view.
-    esp_err_t send_msg(uint16_t id, const uint8_t data[8]);
+    esp_err_t send_msg(const TxFrame& frame);
 
    
     // Schedule a frame to be sent periodically by the background TX task.
     // Re-scheduling the same ID updates its payload/period and restarts its timing.
-    esp_err_t schedule(uint16_t id, const uint8_t data[8], uint32_t period_ms);
+    esp_err_t schedule(const TxFrame& frame, uint32_t period_ms);
     
     // Update only the stored payload for a scheduled ID.
     // The existing schedule phase and period are left unchanged.
-    esp_err_t update_scheduled_payload(uint16_t id,
-                                        const uint8_t data[8]);
+    esp_err_t update_scheduled_payload(const TxFrame& frame);
     
     // Remove a scheduled transmit entry for the given ID.
     esp_err_t unschedule(uint16_t id);
 
 
-    esp_err_t subscribe(uint16_t id,
-                        void (*callback)(uint16_t id, const uint8_t data[8], uint32_t timestamp) = nullptr);
+    esp_err_t subscribe(uint16_t id, RxCallback callback = nullptr);
     esp_err_t unsubscribe(uint16_t id);
-    esp_err_t get(uint16_t id, uint8_t data_out[8], uint32_t *timestamp_ms = nullptr);
+    
+    esp_err_t get(uint16_t id, RxFrame& frame);
 
     void set_hardware_filters();
     void set_hardware_filters(uint32_t id);
@@ -45,6 +67,11 @@ namespace MSM_CAN
         data[index + 1] = static_cast<uint8_t>((value >> 0) & 0xFF);
     }
 
+    inline void pack_i16(uint8_t data[8], uint8_t index, int16_t value)                 //helper function to pack uint8_t data[8] with a big-endian encoded int16_t
+    {
+        pack_u16(data, index, static_cast<uint16_t>(value));
+    }
+
 
     inline void pack_u32(uint8_t data[8], uint8_t index, uint32_t value)                //helper function to pack uint8_t data[8] with a big-endian encoded uint32_t 
     {
@@ -56,11 +83,16 @@ namespace MSM_CAN
         data[index + 3] = static_cast<uint8_t>((value >> 0)  & 0xFF);
     }
 
-    inline void pack_u8(uint8_t data[8], uint8_t index, uint8_t value)                  //by all means useless but might make more sense to minions / make code slightly more legible
+    inline void pack_u8(uint8_t data[8], uint8_t index, uint8_t value)                  // helper function to pack uint8_t data[8] with a uint8_t
     {
         if (index > 7) return;
 
         data[index] = value;
+    }
+
+    inline void pack_i8(uint8_t data[8], uint8_t index, int8_t value)                   //helper function to pack uint8_t data[8] with an int8_t
+    {
+        pack_u8(data, index, static_cast<uint8_t>(value));
     }
 
     inline void pack_float(uint8_t data[8], uint8_t index, float value)                  // helper function to pack uint8_t data[8] with a big-endian encoded float
@@ -68,6 +100,18 @@ namespace MSM_CAN
         uint32_t bits = 0;
         memcpy(&bits, &value, sizeof(bits));
         pack_u32(data, index, bits);
+    }
+
+    inline uint8_t unpack_u8(const uint8_t data[8], uint8_t index)                  // helper function to unpack uint8_t data[8] with a uint8_t
+    {
+        if (data == nullptr || index > 7) return 0;
+
+        return data[index];
+    }
+
+    inline int8_t unpack_i8(const uint8_t data[8], uint8_t index)                   // helper function to unpack uint8_t data[8] with an int8_t
+    {
+        return static_cast<int8_t>(unpack_u8(data, index));
     }
 
     inline uint16_t unpack_u16(const uint8_t data[8], uint8_t index)                // helper function to unpack uint8_t data[8] with a big-endian encoded uint16_t
