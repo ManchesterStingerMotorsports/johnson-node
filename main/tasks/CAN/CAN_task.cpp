@@ -1,70 +1,43 @@
 #include "CAN_task.hpp"
-
-#include "CAN_packets.hpp"
 #include "MSM_CAN.hpp"
 #include "config/BoardConfig.hpp"
-#include "data/SensorQueues.hpp"
+#include "data/ADCSample.hpp"
+#include "esp_err.h"
 #include "esp_log.h"
 #include "freertos/FreeRTOS.h"
+#include "freertos/queue.h"
 #include "freertos/task.h"
 
 namespace
 {
-    const char *TAG = "CAN_task";
-
-    template <size_t Capacity>
-    void send_frames(const CANPackets::FrameBatch<Capacity>& batch)
-    {
-        for (size_t index = 0; index < Capacity; index++)
-        {
-            (void)MSM_CAN::send_msg(batch.frames[index]);
-        }
-    }
+    constexpr const char *TAG = "CAN";
+    constexpr uint16_t PRESSURE_CAN_ID = 0x500;
 }
 
-void CAN_task(void *pv_parameters)
+void CAN_task(void *parameter)
 {
-    (void)pv_parameters;
-
-    const esp_err_t init_result = MSM_CAN::init(
-        BoardConfig::CAN::RX_GPIO,
-        BoardConfig::CAN::TX_GPIO);
-    if (init_result != ESP_OK)
-    {
-        ESP_LOGE(
-            TAG,
-            "CAN initialization failed: %s",
-            esp_err_to_name(init_result));
-        vTaskDelete(nullptr);
-        return;
-    }
-
-    ESP_LOGI(
-        TAG,
-        "CAN initialized RX=GPIO%d TX=GPIO%d",
-        static_cast<int>(BoardConfig::CAN::RX_GPIO),
-        static_cast<int>(BoardConfig::CAN::TX_GPIO));
-
+    const auto adc_queue = static_cast<QueueHandle_t>(parameter);
+    ESP_ERROR_CHECK(MSM_CAN::init(BoardConfig::CAN::RX_GPIO,
+                                 BoardConfig::CAN::TX_GPIO));
     while (true)
     {
-        SensorData::ADCSample adc_sample{};
-        if (SensorQueues::take(adc_sample))
+        SensorData::ADCSample sample{};
+        // Waiting for a sample blocks this task and lets other tasks run.
+        if (xQueueReceive(adc_queue, &sample, portMAX_DELAY) != pdTRUE)
         {
-            send_frames(CANPackets::encode(adc_sample));
+            continue;
         }
 
-        SensorData::IMUSample imu_sample{};
-        if (SensorQueues::take(imu_sample))
-        {
-            send_frames(CANPackets::encode(imu_sample));
-        }
+        // 4. CAN: create a frame, pack the count, then send it.
+        MSM_CAN::TxFrame frame{};
+        frame.id = PRESSURE_CAN_ID;
+        MSM_CAN::pack_u16(frame.data, 0, sample.raw[0]);
 
-        SensorData::GPSSample gps_sample{};
-        if (SensorQueues::take(gps_sample))
-        {
-            send_frames(CANPackets::encode(gps_sample));
-        }
+        const esp_err_t result = MSM_CAN::send_msg(frame);
 
-        vTaskDelay(pdMS_TO_TICKS(10));
+        if (result != ESP_OK)
+        {
+            ESP_LOGW(TAG, "CAN operation failed: %s", esp_err_to_name(result));
+        }
     }
 }

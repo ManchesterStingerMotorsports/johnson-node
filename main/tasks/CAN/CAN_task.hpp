@@ -1,3 +1,3 @@
 #pragma once
 
-void CAN_task(void *pv_parameters);
+void CAN_task(void *parameter);

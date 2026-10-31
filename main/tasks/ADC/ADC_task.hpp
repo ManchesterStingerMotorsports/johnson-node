@@ -1,3 +1,3 @@
 #pragma once
 
-void ADC_task(void *pv_parameters);
+void ADC_task(void *parameter);
